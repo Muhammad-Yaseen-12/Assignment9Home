@@ -20,7 +20,6 @@
     display: flex;
     justify-content: center;
     font-size: 20px;
-
 }
 
 .nav-List li {
@@ -83,7 +82,6 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-
 }
 
 .secondHalf {
@@ -106,7 +104,6 @@
     background: none;
     color: white;
     cursor: pointer;
-
 }
 
 .btn-sm {
@@ -129,4 +126,103 @@
 
 .paras {
     padding: 0px 65px;
+}
+
+nav.navbar.background {
+    background-size: auto;
+}
+
+/* Media for Responsive Design */
+@media (max-width: 1024px) {
+    .nav-List {
+        width: 70%;
+        font-size: 18px;
+    }
+
+    .text-big {
+        font-size: 35px;
+    }
+
+    .text-small {
+        font-size: 16px;
+    }
+
+    .btn {
+        padding: 6px 16px;
+    }
+
+    .box-main {
+        max-width: 70%;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .nav-List {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .nav-List li {
+        padding: 15px 0;
+    }
+
+    .box-main {
+        max-width: 90%;
+    }
+
+    .text-big {
+        font-size: 28px;
+    }
+
+    .text-small {
+        font-size: 14px;
+    }
+
+    .btn {
+        padding: 5px 14px;
+    }
+
+    .section {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .paras {
+        padding: 0 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .nav-List {
+        font-size: 16px;
+    }
+
+    .nav-List li {
+        padding: 10px 0;
+    }
+
+    .text-big {
+        font-size: 24px;
+    }
+
+    .text-small {
+        font-size: 12px;
+    }
+
+    .btn {
+        padding: 4px 12px;
+    }
+
+    .section {
+        padding: 10px 50px;
+    }
+
+    .paras {
+        padding: 0 10px;
+    }
 }
